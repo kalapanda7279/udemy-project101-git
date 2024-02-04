@@ -1,0 +1,9 @@
+{
+	"name": "udemy-dev-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d77312f3-7494-4d0a-b0f4-72dbc5d759df",
+		"tenantId": "2908f63f-33f7-4ceb-8d9d-80ecd498b20a"
+	}
+}
