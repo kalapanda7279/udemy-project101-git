@@ -219,6 +219,22 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 10
 						}
+					},
+					{
+						"name": "Wait5 secs",
+						"type": "Wait",
+						"dependsOn": [
+							{
+								"activity": "Copy data from input to output",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 5
+						}
 					}
 				],
 				"policy": {
