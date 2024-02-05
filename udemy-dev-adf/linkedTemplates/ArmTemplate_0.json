@@ -192,7 +192,14 @@
 					{
 						"name": "Check File Exists",
 						"type": "Validation",
-						"dependsOn": [],
+						"dependsOn": [
+							{
+								"activity": "Wait10 Secs",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
 						"userProperties": [],
 						"typeProperties": {
 							"dataset": {
@@ -202,6 +209,15 @@
 							},
 							"timeout": "0.12:00:00",
 							"sleep": 10
+						}
+					},
+					{
+						"name": "Wait10 Secs",
+						"type": "Wait",
+						"dependsOn": [],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 10
 						}
 					}
 				],
