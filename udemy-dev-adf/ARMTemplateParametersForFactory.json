@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "udemy-dev-adf"
 		},
-		"ls_blobStorage_Dev_connectionString": {
-			"value": ""
-		},
 		"ls_blobstorageudemy_dev_properties_typeProperties_connectionString_secretName": {
 			"value": "dev-storageaccount-secret"
 		},
