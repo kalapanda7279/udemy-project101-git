@@ -1,0 +1,10 @@
+{
+	"name": "ls_keyvault_test",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://project101-test-kv.vault.azure.net/"
+		}
+	}
+}
