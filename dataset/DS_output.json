@@ -2,7 +2,7 @@
 	"name": "DS_output",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_blobStorage_Dev",
+			"referenceName": "ls_blobstorageudemy_dev",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
